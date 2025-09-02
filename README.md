@@ -1,7 +1,5 @@
 # Movie-Recommendation-Web-App
 
-# Movie Recommendation Web App
-
 A full-stack web application that provides **personalized movie recommendations** based on users’ watch history. Built with **React, Node.js, and MongoDB**, the app integrates the **TMDb API** for real-time movie data and features an **AI-powered recommendation engine** for tailored suggestions.  
 
 ---
