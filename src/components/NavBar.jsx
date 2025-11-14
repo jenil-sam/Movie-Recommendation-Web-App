@@ -5,11 +5,12 @@ import "../css/Navbar.css"
 function NavBar() {
     return <nav className="navbar">
         <div className="navbar-brand">
-            <Link to="/">Movie App</Link>
+            <Link to="/">Movie <span className="second-word">Dashboard</span></Link>
         </div>
         <div className="navbar-links">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/favorites" className="nav-link">Favorites</Link>
+            <Link to="/recommendations" className="nav-link">Recommendations</Link>
         </div>
     </nav>
 }
